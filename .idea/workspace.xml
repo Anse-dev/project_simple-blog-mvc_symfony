@@ -24,40 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4f9dc31-4634-4d9a-9fd6-b36a0c5a0f07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/phpcs.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tchat_symfony_react_js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tchat_symfony_react_js.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Features.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AddCommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AddCommentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AddImageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AddImageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Administraction/ShowDashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Administraction/ShowDashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PostsByCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PostsByCategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ShowMenuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ShowMenuController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ShowPostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ShowPostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ShowPostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ShowPostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/UserProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserProfileController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Image.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Image.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Tag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Type/TimesTamp.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Type/TimesTamp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Event/CommentCreatedEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Event/CommentCreatedEvent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/ImageType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ImageType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pagination/Paginator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pagination/Paginator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pagination/PaginatorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pagination/PaginatorInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/PostRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/PostRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/ImageUploader.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/ImageUploader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/UserEntityTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/UserEntityTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bootstrap.php" afterDir="false" />
-    </list>
+    <list default="true" id="c4f9dc31-4634-4d9a-9fd6-b36a0c5a0f07" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -306,7 +273,7 @@
       <workItem from="1634735434173" duration="529000" />
       <workItem from="1634774060248" duration="37556000" />
       <workItem from="1634946275840" duration="6578000" />
-      <workItem from="1636355839720" duration="12143000" />
+      <workItem from="1636355839720" duration="12609000" />
     </task>
     <servers />
   </component>
