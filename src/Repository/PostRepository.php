@@ -40,7 +40,8 @@ class PostRepository extends ServiceEntityRepository
             'p.category',
             "c",
             Expr\Join::WITH,
-            $qb->expr()->eq("c.id", ":id"))
+            $qb->expr()->eq("c.id", ":id")
+        )
             ->where('p.createdAt <= :now')
             ->orderBy("p.createdAt", 'DESC')
             ->setParameters(["id" => $id, 'now' => new \DateTime()]);

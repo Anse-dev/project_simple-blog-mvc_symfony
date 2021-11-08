@@ -1,34 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c4f9dc31-4634-4d9a-9fd6-b36a0c5a0f07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/UserProfileController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/component/home-news.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/UserEntityTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.test" beforeDir="false" afterPath="$PROJECT_DIR$/.env.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tchat_symfony_react_js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tchat_symfony_react_js.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixtures/fixtures.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/fixtures.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ShowPostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ShowPostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/PostRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/PostRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Pages/HomePage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Pages/HomePage.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Pages/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Pages/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Pages/uml/classe_object_uml.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/get/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/image.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PostsByCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PostsByCategoryController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +40,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Anse-dev/project_simple-blog-mvc_symfony.git" />
+      </set>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -182,6 +186,7 @@
       <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1qxFPkjzOinDRCc7U7mxqX5kYKi" />
@@ -270,12 +275,23 @@
       <workItem from="1634735434173" duration="529000" />
       <workItem from="1634774060248" duration="37556000" />
       <workItem from="1634946275840" duration="6578000" />
-      <workItem from="1636355839720" duration="7564000" />
+      <workItem from="1636355839720" duration="13071000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -328,9 +344,10 @@
     <state x="372" y="26" key="NewPhpClassDialog/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1636356608596" />
     <state x="2269" y="27" key="NewPhpClassDialog/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1634947640140" />
     <state x="372" y="26" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1633961317413" />
-    <state x="42" y="0" key="SettingsEditor" timestamp="1634735383365">
+    <state x="42" y="0" key="SettingsEditor" timestamp="1636379043139">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="42" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1636379043139" />
     <state x="42" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1634735383365" />
     <state x="161" y="14" key="Vcs.Push.Dialog.v2" timestamp="1636366179178">
       <screen x="0" y="0" width="1536" height="824" />

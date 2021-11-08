@@ -12,18 +12,19 @@ use Symfony\Component\Form\FormEvents;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\Form\Extension\Core\Type\FileType;
 
-
 class ImageType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add("file", FileType::class,
-
+            ->add(
+                "file",
+                FileType::class,
                 [
                     "label" => false,
                     'required' => false
-                ])
+                ]
+            )
             ->add("Submit", SubmitType::class);
         $builder->addEventListener(
             FormEvents::PRE_SET_DATA,
@@ -39,7 +40,6 @@ class ImageType extends AbstractType
                 }
             }
         );
-
     }
 
     public function configureOptions(OptionsResolver $resolver)

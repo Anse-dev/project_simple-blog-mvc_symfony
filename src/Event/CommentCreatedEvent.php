@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Event;
-
 
 use App\Entity\Comment;
 use Symfony\Contracts\EventDispatcher\Event;
@@ -26,6 +24,4 @@ class CommentCreatedEvent extends Event
     {
         return $this->comment;
     }
-
-
 }

@@ -15,9 +15,13 @@
     "doctrine/orm": "^2.8",
     "mbezhanov/faker-provider-collection": "^2.0",
     "phpdocumentor/reflection-docblock": "^5.2",
+    "phpunit/phpunit": "^9.5",
     "sensio/framework-extra-bundle": "^5.1",
+    "squizlabs/php_codesniffer": "^3.6",
     "symfony/asset": "5.2.*",
+    "symfony/browser-kit": "^5.2",
     "symfony/console": "5.2.*",
+    "symfony/css-selector": "^5.2",
     "symfony/dotenv": "5.2.*",
     "symfony/expression-language": "5.2.*",
     "symfony/flex": "^1.3.1",
@@ -29,6 +33,7 @@
     "symfony/mime": "5.2.*",
     "symfony/monolog-bundle": "^3.1",
     "symfony/notifier": "5.2.*",
+    "symfony/phpunit-bridge": "^5.2",
     "symfony/process": "5.2.*",
     "symfony/property-access": "5.2.*",
     "symfony/property-info": "5.2.*",
@@ -46,12 +51,8 @@
   },
   "require-dev": {
     "hautelook/alice-bundle": "^2.9",
-    "phpunit/phpunit": "^9.5",
-    "symfony/browser-kit": "^5.2",
-    "symfony/css-selector": "^5.2",
     "symfony/debug-bundle": "^5.2",
     "symfony/maker-bundle": "^1.0",
-    "symfony/phpunit-bridge": "^5.2",
     "symfony/stopwatch": "^5.2",
     "symfony/var-dumper": "^5.2",
     "symfony/web-profiler-bundle": "^5.2"
@@ -88,13 +89,6 @@
     ],
     "post-update-cmd": [
       "@auto-scripts"
-    ],
-    "build": [
-      "php bin/console doctrine:database:drop --force --if-exists",
-      "php bin/console doctrine:database:create",
-      "php bin/console make:migration -n",
-      "php bin/console doctrine:migrations:migrate -n",
-      "php bin/console doctrine:fixtures:load -n"
     ]
   },
   "conflict": {

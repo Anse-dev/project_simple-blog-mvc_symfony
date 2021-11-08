@@ -73,6 +73,4 @@ class Image
     {
         return $this->file;
     }
-
-
 }
