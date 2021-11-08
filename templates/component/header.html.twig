@@ -1,0 +1,59 @@
+<header id="header">
+    <div class="header-container">
+        <div class="container">
+            <!-- Mobile Header -->
+            <div class="header-mobile">
+                <div class="header-mobile-block">
+                    <div class="icons-mobile-block">
+                        <span></span>
+                    </div>
+                    <div class="logo-mobile-block">
+                        <div class="logo-inner">
+                            <a href="{{ path("blog_index") }}" class="link">PartOf</a>
+                        </div>
+                    </div>
+                    <div class="search-mobile-block">
+                        <div class="search-icon">
+                            <i class="close fa fa-close invisible"></i>
+                            <i class="search fa fa-search" onclick="change()"></i>
+                        </div>
+                        <div class="search-form invisible">
+                            <form action="/" method="POST">
+                                <div id="out-search" class="form-group">
+                                    <input
+                                            type="text"
+                                            name="q"
+                                            class="form-control"
+                                            placeholder="Rechercher"
+                                    />
+                                </div>
+                                <button class="btn-search">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Mobile Header -->
+            <!-- Lg Header -->
+            <div class="header-larger">
+                <div class="headerLarger-block">
+                    <nav class="navigation">
+                        <div class="headerLarger-logo-block">
+                            <div class="vide">
+                                <a href="{{ path("blog_index") }}" class="link">PartOf </a>
+                            </div>
+                        </div>
+                        {{ render(controller('App\\Controller\\ShowMenuController')) }}
+                        <div class="search-icon">
+                            <i class="close fa fa-close invisible"></i>
+                            <i class="search fa fa-search" onclick="change()"></i>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- End Lg Header -->
+        </div>
+    </div>
+</header>

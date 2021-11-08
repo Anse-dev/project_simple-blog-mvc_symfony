@@ -1,0 +1,23 @@
+@startuml
+package "Rules" #fff{
+
+    package "Use Case" #fff{}
+
+
+    package "Entity" #fff{
+        class User
+        class Category
+        class Recruiter
+        class Jobssekeer
+        class Jobs
+        class Skills
+        class locale
+        User <-- Jobssekeer
+        User <-- Recruiter
+        Jobssekeer "many" *-- "one" Jobs
+    }
+
+
+}
+
+@enduml

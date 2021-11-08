@@ -1,0 +1,30 @@
+<div class="article-item">
+    <article class="article" style="background-image: url('https://picsum.photos/id/{{ post.id }}/800/500')">
+        <div class="article-content">
+            <a href="{{ path("post_show_by_category",{"category": post.category.id}) }}"
+               class="post-category">{{ post.category.title }}</a>
+            <a class="post-title" href="{{ path("post_show",{"slug": post.slug}) }}">{{ post.title }}</a>
+            <div class="article-intro">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Recusandae voluptatem vel magnam maxime
+                    natus nesciunt, labore unde quod aspernatur eaque
+                    vero nemo aliquid molestias expedita odio delectus
+                    inventore porro quia.
+                </p>
+            </div>
+            <div class="article-footer">
+                <div class="meta-link">
+                    <div class="learn">
+                        <a href="{{ path("post_show",{"slug": post.slug}) }}">Lire plus</a
+                        ><i class="fa fa fa-angle-right"></i>
+                    </div>
+                    <div class="icons-avis">
+                        <a href="" class="comment"><i class="fa fa fa-comment-o"></i></a>
+                        <a href="" class="like"><i class="fa fa fa-heart-o"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>

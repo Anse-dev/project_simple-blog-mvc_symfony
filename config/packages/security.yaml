@@ -1,0 +1,27 @@
+security:
+  encoders:
+    App\Entity\User:
+      algorithm: bcrypt
+
+  providers:
+    database_users:
+      entity:
+        class: App\Entity\User
+        property: username
+
+  firewalls:
+    dev:
+      pattern: ^/(_(profiler|wdt)|css|images|js)/
+      security: false
+    main:
+      anonymous: true
+      lazy: true
+      logout:
+        path: app_logout
+      guard:
+        authenticators:
+          - App\Security\WebAuthenticator
+  access_control:
+    - { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+    - { path: ^/admin, roles: ROLE_ADMIN }
+    - { path: ^/user,  roles: ROLE_USER }

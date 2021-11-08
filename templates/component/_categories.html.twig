@@ -1,0 +1,9 @@
+<ul class="headerLarger-navItems">
+    {% for menu in menus %}
+        <li class="headerLarger-item">
+            <a href="{{ path("post_show_by_category",{"category":menu.id}) }}" id="{{ menu.title }}"
+               class="headerLarger-link">{{ menu.title }}</a>
+        </li>
+
+    {% endfor %}
+</ul>

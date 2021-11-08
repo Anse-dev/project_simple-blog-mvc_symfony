@@ -1,0 +1,137 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <main id="main-site">
+        <div class="container">
+            <section class="articles-liste-wrapper">
+                <div class="container">
+                    <div class="inner-content-wrapper">
+                        <div class="side-right">
+                            <article class="single-post">
+                                <img src="https://picsum.photos/id/187/200/200./image/profile.jpg" alt=""
+                                     width="24px" height="24px"/>
+                                <div>
+                                    <h1>{{ post.title }}</h1>
+
+                                </div>
+                                <p>
+                                    {{ post.body }}
+                                </p>
+                            </article>
+                        </div>
+                        <aside>
+                            <div class="container">
+                                <div class="aside-block">
+                                    <div class="articles-listes-head">
+                                        <h3>NEWSLETTER</h3>
+                                    </div>
+                                    <div class="form-newsletter">
+                                        <div class="icons-newsletter">
+                                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                                            <span
+                                            >Abonnez-vous à notre blog newsletter pour de
+                            nouvelles astuces
+                          </span>
+                                        </div>
+                                        <form action="">
+                                            <div class="field">
+                                                <input
+                                                        type="text"
+                                                        name="sucribe"
+                                                        class="field-control"
+                                                        placeholder="*exemple@gmail.com"
+                                                />
+                                                <button class="btn-search"><span>→</span></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="news">
+                                        <div class="news-heading">
+                                            <h3>Les articles Populaire</h3>
+                                            <div class="news-items">
+                                                <div class="news-item">
+                                                    <article
+                                                            class="article"
+                                                            style="
+                                  background-image: url('./image/woman.jpg');
+                                "
+                                                    >
+                                                        <div class="article-content">
+                                                            <h3 class="post-title">
+                                                                Lorem ipsum dolor, sit amet consectetur
+                                                                adipisicing elit. Dolor laborum sequi quo
+                                                                provident cumque fugit?
+                                                            </h3>
+                                                        </div>
+                                                        <a href="" class="overlay-link"></a>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                            <div class="news-items">
+                                                <div class="news-item">
+                                                    <article
+                                                            class="article"
+                                                            style="
+                                  background-image: url('./image/black.jpg');
+                                "
+                                                    >
+                                                        <div class="article-content">
+                                                            <h3 class="post-title">
+                                                                Lorem ipsum dolor, sit amet consectetur
+                                                                adipisicing elit. Dolor laborum sequi quo
+                                                                provident cumque fugit?
+                                                            </h3>
+                                                        </div>
+                                                        <a href="" class="overlay-link"></a>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                            <div class="news-items">
+                                                <div class="news-item">
+                                                    <article
+                                                            class="article"
+                                                            style="
+                                  background-image: url('./image/hair.jpg');
+                                "
+                                                    >
+                                                        <div class="article-content">
+                                                            <h3 class="post-title">
+                                                                Lorem ipsum dolor, sit amet consectetur
+                                                                adipisicing elit. Dolor laborum sequi quo
+                                                                provident cumque fugit?
+                                                            </h3>
+                                                        </div>
+                                                        <a href="" class="overlay-link"></a>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                            <div class="news-items">
+                                                <div class="news-item">
+                                                    <article
+                                                            class="article"
+                                                            style="
+                                  background-image: url('./image/hair.jpg');
+                                "
+                                                    >
+                                                        <div class="article-content">
+                                                            <h3 class="post-title">
+                                                                Lorem ipsum dolor, sit amet consectetur
+                                                                adipisicing elit. Dolor laborum sequi quo
+                                                                provident cumque fugit?
+                                                            </h3>
+                                                        </div>
+                                                        <a href="" class="overlay-link"></a>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+{% endblock %}

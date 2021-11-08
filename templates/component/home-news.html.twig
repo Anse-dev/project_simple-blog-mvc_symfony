@@ -1,0 +1,53 @@
+<section id="home-area" class="ban-wrapper">
+    <div class="ban-block">
+        {% for post in news %}
+            <div class="ban-post-item">
+                <article class="post-content">
+                    <div class="post-image"
+                         style="background-image: url(https://picsum.photos/id/182/800/300)"></div>
+                    <div class="post-info">
+                        <a href="{{ path('post_show_by_category', {"category":post.category.title}) }}"
+                           class="post-category">{{ post.category.title }}</a>
+                        <a class="post-title" href=" {{ path("post_show",{"slug": post.slug}) }}">{{ post.title }}</a>
+
+                        <div class="meta-author-profile">
+                            <div class="author">
+                                <div class="autor-image-profile">
+                                    <img src="https://picsum.photos/id/187/800/300" alt="" width="24px"
+                                         height="24px"/>
+                                </div>
+                                <div class="author-profile-info">
+                                    <span class="author-name"> Jean Anselme </span>
+                                    <span class="author-date-published">. {{ post.createdAt | date("Y-m-d") }}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href=" {{ path("post_show",{"slug": post.slug}) }}" class="overlay-link"></a>
+                </article>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="ban-block-news">
+        {% for post in selects %}
+            <div class="ban-post-item">
+                <article class="post-content">
+                    <div class="post-row">
+                        <div class="image-post">
+                            <div class="image-ronded">
+                                <img src="https://picsum.photos/id/{{ post.id }}/800/300"/>
+                            </div>
+                        </div>
+                        <div class="post-desc">
+                            <h3 class="post-title">
+                                {{ post.title }}
+                            </h3>
+                            <span class="date">{{ post.createdAt|date("Y-m-d") }}</span>
+                        </div>
+                    </div>
+                    <a href="{{ path("post_show", {slug:post.slug}) }}" class="overlay-link"></a>
+                </article>
+            </div>
+        {% endfor %}
+    </div>
+</section>
