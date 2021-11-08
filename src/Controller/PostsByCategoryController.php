@@ -28,7 +28,8 @@ class PostsByCategoryController
 
     /**
      * @Route("/posts/category/{category}", defaults={"page":"1"}, methods={"GET"}, name="post_show_by_category")
-     * @Route("/posts/category/{category}/page/{page<[1-9]\d*>}", methods={"GET"}, name="post_show_by_category_paginated")
+     * @Route("/posts/category/{category}/page/{page<[1-9]\d*>}",
+     *      methods={"GET"}, name="post_show_by_category_paginated")
      * @param Environment $twig
      * @param Category $category
      * @param $page

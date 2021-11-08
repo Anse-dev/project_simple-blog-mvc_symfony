@@ -24,7 +24,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4f9dc31-4634-4d9a-9fd6-b36a0c5a0f07" name="Default Changelist" comment="" />
+    <list default="true" id="c4f9dc31-4634-4d9a-9fd6-b36a0c5a0f07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Controller/PostsByCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PostsByCategoryController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -273,7 +275,7 @@
       <workItem from="1634735434173" duration="529000" />
       <workItem from="1634774060248" duration="37556000" />
       <workItem from="1634946275840" duration="6578000" />
-      <workItem from="1636355839720" duration="12609000" />
+      <workItem from="1636355839720" duration="13071000" />
     </task>
     <servers />
   </component>
