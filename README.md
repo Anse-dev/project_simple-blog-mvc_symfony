@@ -17,7 +17,7 @@ Installation
 download a  project with this command:
 
 ```bash
-$ git clone project_symfony_blog.git
+$ git clone https://github.com/Anse-dev/project_simple-blog-mvc_symfony.git
 ```
 
 After downloaded, you can install  the dependence :
