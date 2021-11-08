@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Controller;
-
 
 use App\Entity\Image;
 use App\Form\ImageType;
@@ -43,8 +41,7 @@ class AddImageController
         UrlGeneratorInterface $urlGenerator,
         EntityManagerInterface $entityManager,
         Security $security
-    )
-    {
+    ) {
         $this->formFactory = $formFactory;
         $this->urlGenerator = $urlGenerator;
         $this->entityManager = $entityManager;

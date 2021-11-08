@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\Entity\Type;
 
 use Doctrine\ORM\Mapping as ORM;
@@ -33,5 +32,4 @@ trait TimesTamp
 
         return $this;
     }
-
 }

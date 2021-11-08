@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Controller;
-
 
 use App\Entity\Comment;
 use App\Entity\Post;
@@ -49,8 +47,7 @@ class AddCommentController
         UrlGeneratorInterface $urlGenerator,
         EntityManagerInterface $entityManager,
         Security $security
-    )
-    {
+    ) {
         $this->formFactory = $formFactory;
         $this->urlGenerator = $urlGenerator;
         $this->entityManager = $entityManager;
@@ -78,12 +75,12 @@ class AddCommentController
             $this->entityManager->persist($comment);
             $this->entityManager->flush();
         }
-        return new RedirectResponse
-        ($this->urlGenerator->generate("post_show", ["slug" => $post->getSlug()]));
+        return new RedirectResponse(
+            $this->urlGenerator->generate("post_show", ["slug" => $post->getSlug()])
+        );
     }
 
     public function commentFormulaire(Post $post): Response
     {
-
     }
 }

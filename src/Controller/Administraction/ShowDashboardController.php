@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Controller\Administraction;
-
 
 use App\Repository\CommentRepository;
 use App\Repository\PostRepository;
@@ -43,8 +41,7 @@ class ShowDashboardController
         UserRepository $userRepository,
         CommentRepository $commentRepository,
         PostRepository $postRepository
-    )
-    {
+    ) {
         $this->userRepository = $userRepository;
         $this->commentRepository = $commentRepository;
         $this->postRepository = $postRepository;
@@ -70,7 +67,5 @@ class ShowDashboardController
                 'countUsers' => $this->userRepository->count([]),
             ])
         );
-
     }
-
 }

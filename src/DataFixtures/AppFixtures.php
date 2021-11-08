@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\DataFixtures;
-
 
 use App\Entity\Category;
 use App\Entity\Post;
@@ -14,7 +12,6 @@ use Doctrine\Common\DataFixtures\AbstractFixture;
 use Doctrine\Persistence\ObjectManager;
 
 class AppFixtures extends Fixture
-
 {
     /**
      * @var CategoryRepository
@@ -56,7 +53,6 @@ class AppFixtures extends Fixture
                 ->setCategory($category)
                 ->setCreatedAt();
             $manager->persist($post);
-
         }
         $manager->flush();
     }

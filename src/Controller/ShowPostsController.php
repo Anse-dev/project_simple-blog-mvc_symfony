@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Controller;
-
 
 use App\Repository\PostRepository;
 use App\Repository\TagRepository;
@@ -26,8 +24,7 @@ class ShowPostsController extends AbstractController
     public function __construct(
         TagRepository $tagRepository,
         PostRepository $postRepository
-    )
-    {
+    ) {
         $this->tagRepository = $tagRepository;
         $this->postRepository = $postRepository;
     }
@@ -46,9 +43,9 @@ class ShowPostsController extends AbstractController
         $news = $this->postRepository->findByTag("Books");
         $selects = $this->postRepository->findByTag("tools", 3);
 
-        return $this->render("Pages/homePage.html.twig",
+        return $this->render(
+            "Pages/homePage.html.twig",
             ["results" => $latestPosts, "news" => $news, "selects" => $selects]
-
         );
     }
 }

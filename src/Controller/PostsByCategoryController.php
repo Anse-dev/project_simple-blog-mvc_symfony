@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Controller;
-
 
 use App\Entity\Category;
 use App\Repository\PostRepository;
@@ -45,7 +43,6 @@ class PostsByCategoryController
         return new Response($twig->render(
             "pages/category.html.twig",
             ["results" => $posts, "category" => $category]
-        )
-        );
+        ));
     }
 }

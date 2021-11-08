@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Controller;
-
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -38,6 +36,4 @@ class UserProfileController
         dd($user);
         return new Response($this->twig->render("component/_categories.html.twig", ["menus" => $menu]));
     }
-
-
 }

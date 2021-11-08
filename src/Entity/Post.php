@@ -231,5 +231,4 @@ class Post
 
         return $this;
     }
-
 }

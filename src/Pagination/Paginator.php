@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\Pagination;
 
 use Doctrine\ORM\QueryBuilder as DoctrineQueryBuilder;
@@ -23,12 +22,10 @@ class Paginator implements PaginatorInterface
     private $results;
     private $numberOfItemsFound;
 
-    public function __construct
-    (
+    public function __construct(
         DoctrineQueryBuilder $queryBuilder,
         int $itemPerPage = self::PAGE_SIZE
-    )
-    {
+    ) {
         $this->queryBuilder = $queryBuilder;
         $this->itemPerPage = $itemPerPage;
     }
