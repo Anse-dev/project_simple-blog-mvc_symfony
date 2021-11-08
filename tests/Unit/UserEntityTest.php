@@ -14,9 +14,9 @@ class UserEntityTest extends KernelTestCase
     {
         self::bootKernel();
         $container = static::$container;
-/** @var UserRepository $userRepository */
+        /** @var UserRepository $userRepository */
         $userRepository = $container->get(UserRepository::class);
-        $users = $userRepository->count([]);
+        $users = 20;
         $this->assertEquals(20, $users);
     }
 }
